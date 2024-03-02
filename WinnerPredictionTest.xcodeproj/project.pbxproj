@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92AD12C92B93000F00BAAC05 /* IPL 2023 Match Data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 92AD12C82B93000F00BAAC05 /* IPL 2023 Match Data.csv */; };
 		92C0E02B2B91FB2D0016123D /* WinnerPredictionTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0E02A2B91FB2D0016123D /* WinnerPredictionTestApp.swift */; };
 		92C0E02D2B91FB2D0016123D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C0E02C2B91FB2D0016123D /* ContentView.swift */; };
 		92C0E02F2B91FB2F0016123D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C0E02E2B91FB2F0016123D /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92AD12C82B93000F00BAAC05 /* IPL 2023 Match Data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "IPL 2023 Match Data.csv"; sourceTree = "<group>"; };
 		92C0E0272B91FB2D0016123D /* WinnerPredictionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinnerPredictionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C0E02A2B91FB2D0016123D /* WinnerPredictionTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerPredictionTestApp.swift; sourceTree = "<group>"; };
 		92C0E02C2B91FB2D0016123D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92AD12C72B92FFEF00BAAC05 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				92C0E0552B91FB6C0016123D /* Ipl2023MatchesTest.mlmodel */,
+				92AD12C82B93000F00BAAC05 /* IPL 2023 Match Data.csv */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
 		92C0E01E2B91FB2D0016123D = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +108,7 @@
 		92C0E0292B91FB2D0016123D /* WinnerPredictionTest */ = {
 			isa = PBXGroup;
 			children = (
-				92C0E0552B91FB6C0016123D /* Ipl2023MatchesTest.mlmodel */,
+				92AD12C72B92FFEF00BAAC05 /* MLModels */,
 				92C0E02A2B91FB2D0016123D /* WinnerPredictionTestApp.swift */,
 				92C0E02C2B91FB2D0016123D /* ContentView.swift */,
 				92C0E02E2B91FB2F0016123D /* Assets.xcassets */,
@@ -236,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AD12C92B93000F00BAAC05 /* IPL 2023 Match Data.csv in Resources */,
 				92C0E0332B91FB2F0016123D /* Preview Assets.xcassets in Resources */,
 				92C0E02F2B91FB2F0016123D /* Assets.xcassets in Resources */,
 			);
